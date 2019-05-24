@@ -1,6 +1,5 @@
 html {
-    background: url(images/grad.jpg) no-repeat center center fixed;
-    background-size: cover;
+    background: white;
 }
 
 body {
@@ -8,67 +7,96 @@ body {
     line-height: 25px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    display: flex;
 }
 
 h1 {
-    margin: 0px 150px 25px;
-    color: #7b8f51;
-    font-size: 50px;
-    font-family: "Brush Script MT", Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 300px;
+    margin-top: 0px;
+    margin-right: 250px;
+    color: white;
+    font-size: 40px;
+    background-color: lightseagreen;
+    padding: 45px 25px;
+    margin-bottom: 0px;
 }
 
 nav {
-    text-align: right;
+    padding: 30px;
     display: inline;
 }
 
 li {
     display: inline;
-    padding: 25px;
-}
-
-ul {
-    margin-right: 150px;
+    padding: 15px;
 }
 
 ul a {
-    color: green;
+    color: #999;
     text-decoration: none;
 }
 
 ul a:hover {
-    color: #00800066;
+    color: #666;
 }
 
-
 hr {
-    width: 80%;
-    color: #7b8f51;
+    margin-top: 0px;
+    background-color: #c9c4c4;
+    height: 1.5px;
+    border: none;
+}
+
+#box {
+    height: 2.2px;
+    background-color: #dfdbdb;
+    border: none;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: lightseagreen;
+}
+
+.bg {
+    background-color: #dfdbdb;
+    height: 100%;
 }
 
 #profile {
-    width: 300px;
+    width: 250px;
     height: auto;
     float: left;
+    margin-right: 30px;
 }
 
 #wrapper {
     width: 60%;
-    min-width: 300px;
+    height: 100%;
     margin: 50px auto;
     padding: 25px;
-    border-radius: 30px;
-    background: #5f745380;
+    background: white;
 }
 
 p {
-    margin: 60px 30px 60px 350px;
+    color: #666;
+    font-size: 20px;
+    line-height: 1.5em;
 }
 
 footer {
     color: white;
-    bottom: 20px;
+    position: absolute;
+    bottom: 0;
     text-align: center;
+    padding-top: 15px;
     width: 100%;
-    font-size: 16px;
+    font-size: 14px;
+    background: #666;
+    border-top: solid 7px;
+    border-top-color: lightseagreen;
 }
