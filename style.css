@@ -15,18 +15,18 @@ header {
 }
 
 h1 {
-    margin-left: 300px;
+    margin-left: 230px;
     margin-top: 0px;
     margin-right: 250px;
     color: white;
-    font-size: 40px;
+    font-size: 25px;
     background-color: lightseagreen;
-    padding: 45px 25px;
+    padding: 35px 20px;
     margin-bottom: 0px;
 }
 
 nav {
-    padding: 30px;
+    padding: 15px;
     display: inline;
 }
 
@@ -49,6 +49,7 @@ hr {
     background-color: #c9c4c4;
     height: 1.5px;
     border: none;
+    margin-bottom: 0px;
 }
 
 #box {
@@ -65,6 +66,7 @@ h2 {
 .bg {
     background-color: #dfdbdb;
     height: 100%;
+    width: 100%;
 }
 
 #profile {
@@ -77,7 +79,7 @@ h2 {
 #wrapper {
     width: 60%;
     height: 100%;
-    margin: 50px auto;
+    margin: 0px auto;
     padding: 25px;
     background: white;
 }
@@ -88,15 +90,14 @@ p {
     line-height: 1.5em;
 }
 
-footer {
+#footer {
     color: white;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    padding-top: 15px;
     width: 100%;
     font-size: 14px;
     background: #666;
     border-top: solid 7px;
     border-top-color: lightseagreen;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
 }

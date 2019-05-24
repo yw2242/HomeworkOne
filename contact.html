@@ -14,21 +14,57 @@
         <h1>Yi-Ting (Megan) Wu</h1>
         <nav>
             <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <hr>
-
-    <div id="wrapper">
-        <h2>Contact</h2>
-        <hr id="box">
-        
+    
+    <div class="bg">
+        <div id="wrapper">
+            <h2>About Me</h2>
+            <hr id="box">
+            <section id="interestformd">
+                <h2 id="interestformh">Interest Form</h2>
+                <form id ="interestForm" method="post" action = "https://www.cs.cornell.edu/courses/cs1300/2018fa/submit.php" novalidate>
+                    <div class="formT">
+                        <label for="userName">Name: </label>
+                        <input id="userName" name="userName" placeholder="Your Name" required/>
+                        <div>
+                          <span id="userNameError" class="feedback hidden">
+                            Please enter your name
+                        </span>
+                      </div>
+                    </div>
+                    <div class="formT">
+                        <label for="feedback">Do you have any additional information you would like to see on the website ?</label>
+                        <textarea id = "feedback" name = "feedback" required></textarea>
+                        <div>
+                        <span id="feedBackError" class="feedback hidden">
+                            Please specify your questions
+                        </span>
+                      </div>
+                    </div>
+                    <div class="formT">
+                        <label for="email">Cornell Email: </label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required/>
+                        <div>
+                        <span id="emailError" class="feedback hidden">
+                            Plesae enter a valid Cornell email address
+                        </span>
+                      </div>
+                    </div>
+                    <br>
+                    <button type="submit" class="submit">Submit</button>
+                    <br>
+                </form>
+            </section>
+        </div>
     </div>
 
-    <footer>copyright&copy;</footer>
+    <footer id="footer">copyright &copy;</footer>
     
 </body>
 </html>
