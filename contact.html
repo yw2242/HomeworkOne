@@ -24,42 +24,27 @@
     
     <div class="bg">
         <div id="wrapper">
-            <h2>About Me</h2>
+            <h2>Contact</h2>
             <hr id="box">
-            <section id="interestformd">
-                <h2 id="interestformh">Interest Form</h2>
-                <form id ="interestForm" method="post" action = "https://www.cs.cornell.edu/courses/cs1300/2018fa/submit.php" novalidate>
-                    <div class="formT">
-                        <label for="userName">Name: </label>
-                        <input id="userName" name="userName" placeholder="Your Name" required/>
-                        <div>
-                          <span id="userNameError" class="feedback hidden">
-                            Please enter your name
-                        </span>
-                      </div>
-                    </div>
-                    <div class="formT">
-                        <label for="feedback">Do you have any additional information you would like to see on the website ?</label>
-                        <textarea id = "feedback" name = "feedback" required></textarea>
-                        <div>
-                        <span id="feedBackError" class="feedback hidden">
-                            Please specify your questions
-                        </span>
-                      </div>
-                    </div>
-                    <div class="formT">
-                        <label for="email">Cornell Email: </label>
-                        <input type="email" id="email" name="email" placeholder="Your email" required/>
-                        <div>
-                        <span id="emailError" class="feedback hidden">
-                            Plesae enter a valid Cornell email address
-                        </span>
-                      </div>
-                    </div>
+                <div class="form">
+                    <label>Name</label>
                     <br>
-                    <button type="submit" class="submit">Submit</button>
+                    <input class="input-s" name="name"/>
+                </div>
+                <div class="form">
+                    <label>Email</label>
                     <br>
-                </form>
+                    <input class="input-s" type="email" name="email"/>
+                </div>
+                <br>
+                <div class="form">
+                    <label>Message</label>
+                    <br>
+                    <textarea id="msg"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="submit">Submit</button>
+            
             </section>
         </div>
     </div>
